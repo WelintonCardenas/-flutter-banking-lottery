@@ -1,0 +1,99 @@
+# Flutter
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+/build/
+flutter_*.png
+flutter_*.jar
+GeneratedPluginRegistrant.java
+
+# Android
+**/android/app/debug/
+**/android/app/profile/
+**/android/app/release/
+**/android/build/
+**/android/.gradle/
+**/android/local.properties
+**/android/**/GeneratedPluginRegistrant.java
+**/android/**/GeneratedPluginRegistrant.kt
+
+# iOS
+**/ios/**/*.mode1v3
+**/ios/**/*.mode2v3
+**/ios/**/*.moved-aside
+**/ios/**/*.pbxuser
+**/ios/**/*.perspectivev3
+**/ios/**/*sync/
+**/ios/**/.sconsign.dblite
+**/ios/**/.tags*
+**/ios/**/.vagrant/
+**/ios/**/DerivedData/
+**/ios/**/Icon?
+**/ios/**/Icon??
+**/ios/**/Icon???
+**/ios/**/Icon????
+**/ios/**/Icon?????
+**/ios/**/Icon??????
+**/ios/**/Pods/
+**/ios/**/*.hmap
+**/ios/**/.symlinks/
+**/ios/**/.DS_Store
+**/ios/**/*.jsc
+**/ios/**/*.jar
+**/ios/**/*.jks
+**/ios/**/*.keystore
+**/ios/**/GeneratedPluginRegistrant.swift
+**/ios/Flutter/Flutter.framework
+**/ios/Flutter/Flutter.podspec
+
+# macOS
+**/macos/Flutter/GeneratedPluginRegistrant.swift
+**/macos/Flutter/GeneratedPluginRegistrant.dart
+
+# Web
+lib/generated_plugin_registrant.dart
+
+# Sensitive files - CRITICAL
+.env
+.env.local
+.env.*.local
+.env*.txt
+google-services.json
+GoogleService-Info.plist
+ios/Runner/GoogleService-Info.plist
+android/app/google-services.json
+*.key
+*.jks
+*.keystore
+*.p12
+*.cer
+*.crt
+*.pfx
+firebase-config.json
+firebase.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.iml
+.metadata
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Node dependencies
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Misc
+/coverage/
+.test-results.xml
